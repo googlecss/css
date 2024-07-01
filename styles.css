@@ -1,3 +1,127 @@
-body {
-  opacity: 1;
-}
+  
+  .flex {
+			display: flex
+		}
+		
+		.flex-center {
+			align-items: enter;
+		}
+		
+		.table-container {
+			border-bottom: 2px solid #dee2e6;
+			padding-bottom: 20px;
+		}	
+		
+		.btn {
+			 border: none;
+			font-size: 16px;
+			font-weight: 700;
+			background: #8180e0;
+			color: #fff;
+			height: 44px;
+			text-align: center;
+			padding: 12px 29.1px;
+			display: inline-block;
+			line-height: .8;
+			letter-spacing: 0;
+			position: relative;
+			border-radius: 3px;
+			z-index: 1;
+			cursor: pointer;
+			outline: none;
+			transition: all 0.4s ease-out;
+			-moz-transition: all 0.4s ease-out;
+			-webkit-transition: all 0.4s ease-out;
+			-ms-transition: all 0.4s ease-out;
+			-o-transition: all 0.4s ease-out;
+			border-radius: 50px;
+			margin-left: 30px;
+		}
+		
+		.specified_table  td {
+			border-top: none !important;
+		}
+		
+		.specified_table th {
+			border-top: none;
+		}	
+		
+		.mb0 {
+			margin-bottom: 0px;
+		}		
+		
+		#pancard1 {
+			margin-left: 50px;
+			 width: 50%;
+			 min-width: 150px;
+			border: none;
+			outline: none;
+			border-bottom: solid 1px #ddd;
+			border-radius: 0px;
+			// height: 28px;
+			font-size: 16px;
+			padding: 0px;
+		}
+
+			#pancard1:focus {
+			border: none;
+			outline: none;
+			border-bottom: 1px solid #8180e0;
+		}	
+		
+		@media screen and (max-width: 1000px) {
+			.center  {
+				width: 100%;
+			}
+		}
+
+
+		@media screen  and (max-width:  450px) {
+				.flex-wrap {
+					 flex-wrap: wrap;
+				}	
+
+		}	
+
+		.itemcenter {
+			display: flex;
+			justify-content: space-between;
+			flex-direction: column;
+			gap: 20px;
+		}
+
+	.itemcenter th { 
+		white-space: normal
+	} 
+
+	.displayflex{
+		display:flex;
+		align-items: center;
+	}
+	
+	.button_container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+		align-items: center;
+	}	
+	
+	.mt0 {
+		margin-bottom: 0px;
+	}	
+	
+	.value_container {
+		display: flex;
+	}	
+	
+	.field_name {
+		min-width: 150px;
+		border-top: none;
+		text-align: right;
+		padding-right: 10px;
+	}
+
+	.border-top-none {
+		border-top: none !important;
+	}
